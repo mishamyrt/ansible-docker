@@ -1,0 +1,5 @@
+###> common/ansible ###
+/.idea/
+/.git/
+Dockerfile
+###< common/ansible ###

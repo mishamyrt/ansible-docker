@@ -1,0 +1,4 @@
+###> common/ansible ###
+/.env
+/.idea/
+###< common/ansible ###
