@@ -21,7 +21,6 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && pip3 install --upgrade --no-cache-dir --break-system-packages \
         pycrypto==2.6.1 \
-    && ansible-galaxy collection install community.docker \
-    && echo 'localhost' > /etc/ansible/hosts
+    && ansible-galaxy collection install community.docker
 
 CMD ["ansible-playbook", "--version"]
